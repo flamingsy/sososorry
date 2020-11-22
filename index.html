@@ -53,12 +53,13 @@
 
 		}
 		#star1{animation: re 2s linear infinite; perspective: 100px; }
-		#star2{animation: re 2s linear infinite; perspective: 100px; }
+		#star2{animation: ro 2s linear infinite; transform-origin: 50% 50% }
 		#star3{animation: re 2s linear infinite; perspective: 100px; }
 		#star4{animation: re 2s linear infinite; perspective: 100px; }
 		#moving1{animation: rl 3s infinite;}
 
 		@keyframes re {0%{} 100%{transform: rotate3d(0,1,0,360deg);}}
+		@keyframes ro {100%{transform: rotate(360deg);}}
 
 		#abs1{position: absolute; width: 60%; left: 300px; top: 940px;}
 		#abs2{position: absolute; width: 200px; left: 400px; top: 1000px;}
