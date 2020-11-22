@@ -58,9 +58,10 @@
 
 		}
 		#star1{animation: re 2s linear infinite; perspective: 100px; }
-		#star2{animation: ro 2s linear infinite; transform-origin: 50% 50% }
+		#star2{animation: ro 1s linear infinite; transform-origin: 50% 50%; }
 		#star3{animation: re 2s linear infinite; perspective: 100px; }
 		#star4{animation: re 2s linear infinite; perspective: 100px; }
+		#star5{animation: ro 1s linear infinite; transform-origin: 50% 50%; }
 		#moving1{animation: rl 3s infinite;}
 
 		@keyframes re {0%{} 100%{transform: rotate3d(0,1,0,360deg);}}
@@ -70,7 +71,8 @@
 		#abs2{position: absolute; width: 200px; left: 400px; top: 1000px;}
 		#abs3{position: absolute; width: 300px; left: 800px; top: 1000px;}
 		#abs4{position: absolute; width: 375px; left: 1020px; top: 1550px;
-				animation: rl 3s infinite;}
+				animation: rl 3s infinite;
+				animation: ro 1s linear infinite; transform-origin: 50% 50%;}
 		#abs5{position: absolute; width: 1100px; left: 450px; top: 2000px;}
 
 		@keyframes rl {from{left: 300px;} to{right: 300px;}}
@@ -105,7 +107,7 @@
 				<img src="sorry8.png" height="375px" id="abs4">
 			</div>
 			<div class="row-blue">
-				<img src="sorry10.png" width= "370px">
+				<img src="sorry10.png" width= "370px" id="star5">
 				<img src="sorry4.png" width="1100px" id="abs5">
 			</div>
 		</div>
