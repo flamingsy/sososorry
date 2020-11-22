@@ -52,6 +52,12 @@
 			height: 1500px;
 
 		}
+		#star1{animation: re 2s linear infinite; perspective: 100px; }
+		#star2{animation: re 2s linear infinite; perspective: 100px; }
+		#star3{animation: re 2s linear infinite; perspective: 100px; }
+
+		@keyframes re {0%{} 100%{transform: rotate3d(0,1,0,360deg);}}
+
 		#abs1{position: absolute; width: 60%; left: 300px; top: 940px;}
 		#abs2{position: absolute; width: 200px; left: 400px; top: 1000px;}
 		#abs3{position: absolute; width: 300px; left: 800px; top: 1000px;}
@@ -63,9 +69,9 @@
 <body>
 	<section>
 		<div class="row-red">
-			<img src="sorry1.png" width="30%">
-			<img src="sorry7.png" width="30%">
-			<img src="sorry9.png" width="30%">
+			<img src="sorry1.png" width="30%" id="star1">
+			<img src="sorry7.png" width="30%" id="star2">
+			<img src="sorry9.png" width="30%" id="star3">
 		</div>
 	</section>
 
