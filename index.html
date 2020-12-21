@@ -68,8 +68,50 @@
 			display: block;
 			top: 30%;
 			left: 70%;
-
 		}
+
+		#a{opacity: 0%;}
+		#a:hover{opacity: 100%;
+			animation: re 2s linear infinite; perspective: 100px; }
+
+		#b{opacity: 0%;}
+		#b:hover{opacity: 100%;
+			animation: ro 1.5s linear infinite; transform-origin: 50% 50%; }
+
+		#c{opacity: 0%;}
+		#c:hover{opacity: 100%;
+			animation: re 2s linear infinite; perspective: 100px;}
+
+		#d{opacity: 0%;}
+		#d:hover{opacity: 100%;
+			animation: re 2s linear infinite; perspective: 100px;}
+
+		#e{opacity: 0%;}
+		#e:hover{opacity: 100%;
+			animation: ro 3s linear infinite; transform-origin: 50% 50%;}
+
+		@keyframes re {0%{} 100%{transform: rotate3d(0,1,0,360deg);}}
+		@keyframes ro {100%{transform: rotate(360deg);}}
+
+
+		#f{opacity: 0%;}
+		#f:hover{opacity: 100%;}
+
+		#g{opacity: 0%;}
+		#g:hover{opacity: 100%;}
+
+		#h{opacity: 0%;}
+		#h:hover{opacity: 100%;}
+
+		#i{opacity: 0%;}
+		#i:hover{opacity: 100%;}
+
+		#j{opacity: 0%;}
+		#j:hover{opacity: 100%;}
+
+		#k{opacity: 0%;}
+		#k:hover{opacity: 100%;}
+
 
     	section{
 			font-family: 'YESMyoungjo-Bold';
@@ -82,48 +124,47 @@
 			font-family: 10px;
 			line-height: 22px;
 			display: block;
-
 		}
 	</style>
 </head>
 <body>
-	<div class="pos1">
+	<div class="pos1" id="a">
 		<img src="sorry02.png">
 	</div>
-	<div class="pos2">
+	<div class="pos2" id="b">
 		<img src="sorry05.png">
 	</div>
-	<div class="pos3">
+	<div class="pos3" id="c">
 		<img src="sorry03.png">
 	</div>
-	<div class="pos4">
+	<div class="pos4" id="d">
 		<img src="sorry04.png">
 	</div>
-	<div class="pos5">
+	<div class="pos5" id="e">
 		<img src="sorry10.png">
 	</div>
-	<div class="pos6">
+	<div class="pos6" id="f">
 		<img src="sorry7.png">
 	</div>
-	<div class="pos7">
+	<div class="pos7" id="g">
 		<img src="sorry06_1.png">
 	</div>
-	<div class="pos8">
+	<div class="pos8" id="h">
 		<img src="4.png">
 	</div>
-	<div class="pos9">
+	<div class="pos9" id="i">
 		<img src="sorry07.png">
 	</div>
-	<div class="posapple">
+	<div class="posapple" id="app">
 		<img src="apple.png" style="position: fixed;">
 	</div>
-	<div class="posne">
+	<div class="posne" id="ne">
 		<img src="ne.gif" style="position: fixed;">
 	</div>
-	<div class="pos10">
+	<div class="pos10" id="j">
 		<img src="sorry8.png">
 	</div>
-	<div class="pos11">
+	<div class="pos11" id="k">
 		<img src="sorry01.png">
 	</div>
 	<section>
