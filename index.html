@@ -61,7 +61,7 @@
 		}
 		.posapple{
 			display: block;
-			top: 25%;
+			top: 20%;
 			left: 70%;
 		}
 		.posne{
@@ -90,27 +90,32 @@
 		#e:hover{opacity: 100%;
 			animation: ro 3s linear infinite; transform-origin: 50% 50%;}
 
-		@keyframes re {0%{} 100%{transform: rotate3d(0,1,0,360deg);}}
-		@keyframes ro {100%{transform: rotate(360deg);}}
-
-
 		#f{opacity: 0%;}
-		#f:hover{opacity: 100%;}
+		#f:hover{opacity: 100%;
+			animation: re 2s linear infinite; perspective: 100px;}
 
 		#g{opacity: 0%;}
-		#g:hover{opacity: 100%;}
+		#g:hover{opacity: 100%;
+			animation: ro 1.5s linear infinite; transform-origin: 50% 50%;}
 
 		#h{opacity: 0%;}
-		#h:hover{opacity: 100%;}
+		#h:hover{opacity: 100%;
+			animation: re 2s linear infinite; perspective: 100px;}
 
 		#i{opacity: 0%;}
-		#i:hover{opacity: 100%;}
+		#i:hover{opacity: 100%;
+			animation: ro 1.5s linear infinite; transform-origin: 50% 50%;}
 
 		#j{opacity: 0%;}
-		#j:hover{opacity: 100%;}
+		#j:hover{opacity: 100%;
+			animation: re 2s linear infinite; perspective: 100px;}
 
 		#k{opacity: 0%;}
-		#k:hover{opacity: 100%;}
+		#k:hover{opacity: 100%;
+		animation: ro 1.5s linear infinite; transform-origin: 50% 50%;}
+
+		@keyframes re {0%{} 100%{transform: rotate3d(0,1,0,360deg);}}
+		@keyframes ro {100%{transform: rotate(360deg);}}
 
 
     	section{
